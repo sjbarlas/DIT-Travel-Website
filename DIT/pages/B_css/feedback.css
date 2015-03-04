@@ -1,0 +1,31 @@
+#feedback
+{
+width:700px;
+height:-0px;
+position:absolute;
+top:550px;
+left:300px;
+font-family:body_font;
+}
+#top
+{
+width:700px;
+height:-0px;
+position:absolute;
+top:320px;
+left:250px;
+font-family: footer_bar;
+font-size:15pt;
+}
+#paragraph
+{
+position:absolute;
+top:430px;
+left:250px;
+font-family:body_font;
+right:250px;
+}
+
+#footer {
+	top: 5%;
+	}

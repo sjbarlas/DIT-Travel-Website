@@ -1,0 +1,31 @@
+#img1
+{
+	position:absolute;
+	left:279.5px;
+	top:350px;
+	width: 120px;
+	height: 120px;
+}
+#paragraph
+{
+	position:absolute;
+	left:300px;
+	top:890px;
+	right:300px;
+	font-family:body_font;
+}
+#button
+{
+	position:absolute;
+	left:1000px;
+	top:1130px;
+}
+#title
+{
+	position:absolute;
+	left:300px;
+	top:880px;
+	font-family:country_title;
+	font-size: 33pt;
+	color: #00248F;
+}

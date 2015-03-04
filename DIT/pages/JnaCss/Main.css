@@ -1,0 +1,132 @@
+body
+{
+	background-color:white;
+	background-image:url('img/background.jpg');
+	background-repeat:repeat ;
+	background-size:100%;
+}
+
+#header
+{
+	background-image:url('img/header.png');
+	background-repeat:no-repeat;
+	background-attachment: absolute;
+	width: 675px;
+	height: 260px;
+	text-align:center;
+	Margin-left: 15.1%;
+	top: 0px;
+	border-right: solid 121px white;
+	border-left: solid 115px white;
+	border-top: solid 0px black;
+}
+
+#wrap	
+{
+	width: 915px; /* Spans the width of the page */
+	height: 50px; 
+	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+	position: absolute; 
+	background-color: #FFF000;
+	Margin-left: 14.9%;
+}
+.navbar	
+{
+	height: 50px;
+    padding:0;
+	margin: 0;
+	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	border-right: 1px solid #FFBC00; 
+}
+	
+.navbar li 	
+{
+	height: auto;
+	width: 182.8px;  /* Each menu item is 150px wide */
+	float: left;  /* This lines up the menu items horizontally */
+	text-align: center;  /* All text is placed in the center of the box */
+	list-style: none;  /* Removes the default styling (bullets) for the list */
+	font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+	padding: 0;
+	margin: 0;
+	background-color:#FFF000;
+}
+.navbar a	
+{							
+	padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+	border-left: 1px dotted black; 
+	border-right: 1px dotted black; 
+	text-decoration: none;  /* Removes the default hyperlink styling. */
+	color: black; /* Text color is black */
+	display: block;
+}
+ .navbar li:hover, a:hover {background-color: #1E90FF;} 
+ 
+ .navbar li ul 	
+ {
+	display: none;  /* Hides the drop-down menu */
+	height: auto;									
+	margin: 0; /* Aligns drop-down box underneath the menu item */
+	padding: 0; /* Aligns drop-down box underneath the menu item */			
+}				
+
+.navbar li:hover ul 	
+{
+    display: block; /* Displays the drop-down box when the menu item is hovered over */
+}
+ .navbar li ul li {background-color: #FFF000;} 
+ 
+ .navbar li ul li a 	
+ {
+	border-left: 1px solid #FFF000; 
+	border-right: 1px solid #FFF000; 
+	border-top: 1px solid #FFF000; 
+	border-bottom: 1px solid #FFF000; 
+}
+				
+.navbar li ul li a:hover	{background-color: #1E90FF;}
+
+
+/*Fonts*/
+@font-face {
+	font-family: main_font; 
+	src: url('fonts/main.ttf');
+	}
+	
+@font-face {
+	font-family: country_title; /*Countries*/
+	src: url('fonts/country_title.ttf');
+	}
+
+@font-face {
+	font-family: footer_bar; /*footer anbd all footer pages*/
+	src: url('fonts/footer.ttf');
+	}
+	
+@font-face {
+	font-family:body_font;
+	src: url('fonts/body.ttf');
+	}
+	
+@font-face {
+	font-family:icon;
+	src: url('fonts/test.ttf');
+	}
+	
+#footer td a
+{
+	text-decoration:none;
+}
+
+#footer td a:visited
+{
+	color:#1E90FF;
+}
+
+#footer td a:hover
+{
+	text-decoration:none;
+	color: grey;
+	background: none;
+}

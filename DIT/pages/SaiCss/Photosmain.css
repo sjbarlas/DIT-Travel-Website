@@ -1,0 +1,144 @@
+body
+{
+	background-color:white; /* White background colour */
+	background-image:url('SIm/background.jpg');
+	background-repeat:repeat; /* Repeat the background */
+	background-size:100%; 
+}
+
+#header
+{
+	background-image:url('SIm/header.png');
+	background-repeat:no-repeat; /* Header does not repeat */
+	background-attachment:absolute; /* Background that remains stationary while the text scrolls over it */
+	width:635px; /* Width of the header */
+	height:260px; /* Height of the header */
+	text-align:center; /* Text is centre on the header */
+	Margin-left: 15.3%; /* The distance between the right margin and the header */
+	top: 0px; /* No space needed */
+	border-right: solid 121px white;
+	border-left: solid 115px white; 
+	border-top: solid 0px black;
+}
+
+#wrapper	
+{
+	width: 876px; /* Spans the width of the page > GETS RID OF EXTRA YELLOW BOXES */
+	height: 50px; 
+	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+	position: absolute ; /* So when you scroll, the bar doesn't follow you */
+	background-color: #FFF000; /* Yellow colour for the background */
+	Margin-left: 14.9%; /* Places the margin where it should be */
+}
+.navbar	
+{
+	height: 50px;
+    padding:0;
+	margin: 0;
+	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	border-right: 1px solid #FFBC00; /* Border between the cells in the bar */
+}
+	
+.navbar li 	
+{
+	height: auto;
+	width: 175px; 
+	float: left;  /* This lines up the menu items horizontally */
+	text-align: center;  /* All text is placed in the center of the box */
+	list-style: none;  /* Removes the default styling (bullets) for the list */
+	font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  /* Font families */
+	padding: 0px; /* In between the cells */
+	margin: 0;
+	background-color:#FFF000;
+}
+.navbar a	
+{							
+	padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+	border-left: 1px dotted black; 
+	border-right: 1px dotted black; 
+	text-decoration: none;  /* Removes the default hyperlink styling */
+	color: black; /* Text color is black */
+	display: block;
+}
+ .navbar li:hover, a:hover 
+ {
+ background-color: #1E90FF; /* Background is blue */
+ } 
+ 
+ .navbar li ul 	 /* The navbar lis and uls */
+ {
+	display: none;  /* Hides the drop-down menu */
+	height: auto; /* Auto height is not used */			
+	margin: 0; /* Aligns drop-down box underneath the menu item */
+	padding: 0; /* Aligns drop-down box underneath the menu item */			
+}				
+
+.navbar li:hover ul 	
+{
+    display: block; /* Displays the drop-down box when the menu item is hovered over */
+}
+ .navbar li ul li {background-color: #FFF000;} 
+ 
+ .navbar li ul li a 	
+ {
+	border-left: 1px solid #FFF000; /* Border is yellow and bold */
+	border-right: 1px solid #FFF000; 
+	border-top: 1px solid #FFF000; 
+	border-bottom: 1px solid #FFF000; 
+}
+
+/*Fonts*/
+@font-face {
+	font-family: main_font; 
+	src: url('fonts/main.ttf');
+	}
+	
+@font-face {
+	font-family: country_title; 
+	src: url('fonts/country_title.ttf');
+	}
+
+@font-face {
+	font-family: footer_bar; 
+	src: url('fonts/footer.ttf');
+	}
+	
+@font-face {
+	font-family:body_font;
+	src: url('fonts/body.ttf');
+	}
+	
+@font-face {
+	font-family:icon;
+	src: url('fonts/test.ttf');
+	}
+
+#footer
+{
+	clear:both; /* Clear in both sides */
+	text-align:center;
+	width:659px; /* Places it in centre */
+	height:20px;
+	position: absolute; /* So it doesn't follow when scrolling */
+	bottom: -1400px;
+	left: 310px;
+	font-family:footer_bar;
+}
+
+#footer td a
+{
+	text-decoration:none;
+}
+
+#footer td a:visited
+{
+	color:#1E90FF;
+}
+
+#footer td a:hover
+{
+	text-decoration:none;
+	color: grey;
+	background: none;
+}

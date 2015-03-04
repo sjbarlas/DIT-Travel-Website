@@ -1,0 +1,50 @@
+#title
+{
+	text-align: center;
+	font-family: country_title;
+	font-size: 60px;
+	color: #5C001F;
+}
+
+#quote
+{
+	color: #606060;
+}
+
+#main_desc
+{
+	text-align: left;
+	width: 870px;
+	margin: 0 auto;
+	font-family:body_font;
+}
+
+#button
+{
+	position:absolute;
+	left:995px;
+}
+#links
+{
+	width: 870px;
+	margin: 0 auto;
+	border: 0px;
+}
+
+.subtitle
+{
+	color: blue;
+}
+
+/*Links Hover*/
+
+.linkhov img
+{
+	opacity: 1;
+	width: 250px;
+	height: 200px;
+}
+.linkhov img:hover
+{
+		opacity: 0.7;
+}

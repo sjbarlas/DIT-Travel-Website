@@ -1,0 +1,35 @@
+#external /* table */
+{
+	margin-left:200px;
+	margin-top:100px;
+	margin-bottom:100px;
+	border-spacing:20px;
+}
+
+#title {
+	font-family:footer_bar;
+	font-size: 33pt;
+	}
+	
+#external td {
+	font-family:body_font;
+	font-size: 13pt;
+	}
+	
+#footer {
+	font-family: footer_bar;
+	}
+	
+#external td a {
+	text-decoration:none;
+	color: none;
+	background: none;
+	}
+	
+#external td a:hover {
+	text-decoration:none;
+	color: none;
+	background: none;
+	}
+
+

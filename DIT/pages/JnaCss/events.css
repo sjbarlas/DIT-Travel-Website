@@ -1,0 +1,234 @@
+#footer
+{
+	clear:both;
+	text-align:center;
+	width:500px;
+	left: 400px;
+	height:100px;
+	position: absolute;
+	bottom: -345%;
+	font-family: footer_bar; /*footer anbd all footer pages*/
+
+}
+
+#h1
+{
+	position:absolute;
+	left:480px;
+	top:720px;
+	width:500px;
+}
+#imga
+{
+	position:absolute;
+	left:260px;
+	top:450px;
+}
+
+#imgb
+{
+	position:absolute;
+	left:460px;
+	top:450px;
+}
+#imgc
+{
+	position:absolute;
+	left:660px;
+	top:450px;
+}
+#imgd
+{
+	position:absolute;
+	left:860px;
+	top:450px;
+}
+
+#t1
+{
+	position:absolute;
+	left:100px;
+	top:660px;
+	width:500px;
+	font-family: country_title;
+
+}
+#text1
+{
+	position:absolute;
+	left:320px;
+	top:720px;
+	width:650px;
+	text-align:left;
+	font-family:body_font;
+
+}
+
+#img1
+{
+	position:absolute;
+	left:260px;
+	top:890px;
+}
+
+#img2
+{
+	position:absolute;
+	left:460px;
+	top:890px;
+}
+#img3
+{
+	position:absolute;
+	left:660px;
+	top:890px;
+}
+#img4
+{
+	position:absolute;
+	left:860px;
+	top:890px;
+}
+#line1
+{
+	position:absolute;
+	left:165px;
+	top:1060px;
+	width:920px;
+	color:#1E90FF;
+
+}
+#t2
+{
+	position:absolute;
+	left:100px;
+	top:1110px;
+	width:500px;
+	font-family: country_title;
+
+}
+#text2
+{
+	position:absolute;
+	left:320px;
+	top:1190px;
+	width:650px;
+	text-align:left;
+	font-family:body_font;
+
+}
+#img5
+{
+	position:absolute;
+	left:260px;
+	top:1390px;
+}
+
+#img6
+{
+	position:absolute;
+	left:460px;
+	top:1390px;
+}
+#img7
+{
+	position:absolute;
+	left:660px;
+	top:1390px;
+}
+#img8
+{
+	position:absolute;
+	left:860px;
+	top:1390px;
+}
+#line2
+{
+
+	position:absolute;
+	left:-60px;
+	top:1550px;
+	width:1460px;
+	color:#1E90FF;
+
+}
+#t3
+{
+	position:absolute;
+	left:170px;
+	top:1610px;
+	width:500px;
+	font-family: country_title;
+
+}
+#text3
+{
+	position:absolute;
+	left:320px;
+	top:1690px;
+	width:650px;
+	text-align:left;
+	font-family:body_font;
+
+}
+#img9
+{
+	position:absolute;
+	left:260px;
+	top:1900px;
+}
+
+#img10
+{
+	position:absolute;
+	left:460px;
+	top:1900px;
+}
+#img11
+{
+	position:absolute;
+	left:660px;
+	top:1900px;
+}
+#img12
+{
+	position:absolute;
+	left:860px;
+	top:1900px;
+}
+#line3
+{
+
+	position:absolute;
+	left:-350px;
+	top:2060px;
+	width:1990px;
+	color:#1E90FF;
+
+}
+#t4
+{
+	position:absolute;
+	left:100px;
+	top:2110px;
+	width:500px;
+	font-family: country_title;
+
+}
+#text4
+{
+	position:absolute;
+	left:320px;
+	top:2190px;
+	width:650px;
+	text-align:left;
+	font-family:body_font;
+
+}
+#video
+{
+	position:absolute;
+	left:310px;
+	top:2300px;
+	width:500px;
+}

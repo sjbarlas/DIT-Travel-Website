@@ -1,0 +1,72 @@
+#title_ie  {
+	font-style:bold;
+	font-size:50px;
+	margin-left:17%;
+	margin-top: 6%;
+	text-align: left;
+	color:#006600;
+	font-family:country_title;
+	}
+
+#title_ie h4 {
+	color: black;
+	font-size:40px;
+	font-family:footer_bar;
+	}
+
+#title_ie em {
+	font-family:icon;
+	font-style: normal;
+	}
+	
+#quote {
+	font-style:italic;
+	font-size:20px;
+	margin-left:20%;
+	color:grey;
+	}
+	
+#body_ie {
+	margin-left:20%;
+	margin-right:20%;
+	}
+
+#photo_ie img {
+	opacity: 1;
+	}
+	
+#photo_ie img:hover {
+	opacity: 0.6;
+	}
+
+#body_ie iframe {
+	margin-left:10%;
+	margin-right:10%;
+	margin-top: 5%;
+	}
+	
+#subtitle {
+	margin-left:20%;
+	font-size:25px;
+	color:#1F5C1F;
+	}
+	
+#question {
+	font-size: 20px;
+	margin-left: 20%;
+	margin-right:20%;
+	font-style:italic;
+	color:grey;
+	}
+	
+#question a:link {
+	text-decoration:none;
+	color:#1E90FF;
+	background:none;
+}
+
+#calendar iframe{
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:10%;
+	}

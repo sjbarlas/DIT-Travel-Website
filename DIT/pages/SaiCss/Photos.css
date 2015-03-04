@@ -1,0 +1,43 @@
+img 
+{
+	width:278px;
+	height:300px;
+	opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+img:hover
+{
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+	
+}
+
+#photos /* table */
+{
+	margin-left:228px;
+	margin-top:80px;
+	margin-bottom:100px;
+	border:1px #70b8ff dashed;
+}
+
+#photos td a {
+	text-decoration:none;
+	color: none;
+	background: none;
+	}
+	
+#photos td a:hover {
+	text-decoration:none;
+	color: none;
+	background: none;
+}
+#images /* td */
+{
+	border:1px #70b8ff dashed;
+}
+
+th {
+	font-family: country_title;
+	font-size: 37pt;
+}

@@ -1,0 +1,74 @@
+﻿body
+{
+background-color:#000000;
+background-image:url('background22.jpg');
+background-repeat:no-repeat ;
+
+background-size:100%;
+}
+
+#footer
+{
+	clear:both;
+	text-align:center;
+	width:700px;
+	height:50px;
+	position: absolute;
+	top: 640px;
+	left: 310px;
+	font-family:footer_bar;
+}
+
+/*Fonts*/
+@font-face {
+	font-family: main_font; 
+	src: url('fonts/main.ttf');
+	}
+	
+@font-face {
+	font-family: country_title; 
+	src: url('fonts/country_title.ttf');
+	}
+
+@font-face {
+	font-family: footer_bar; 
+	src: url('fonts/footer.ttf');
+	}
+	
+@font-face {
+	font-family:body_font;
+	src: url('fonts/body.ttf');
+	}
+	
+@font-face {
+	font-family:icon;
+	src: url('fonts/test.ttf');
+	}
+	
+#headername {
+	font-family:body_font;
+}
+
+#h1 a, #h2 a, #h3 a, #h4 a
+{
+	font-family:country_title;
+	text-decoration: none;
+	font-size: 30pt;
+}
+
+#footer td a
+{
+	text-decoration:none;
+}
+
+#footer td a:visited
+{
+	color:#1E90FF;
+}
+
+#footer td a:hover
+{
+	text-decoration:none;
+	color: grey;
+	background: none;
+}

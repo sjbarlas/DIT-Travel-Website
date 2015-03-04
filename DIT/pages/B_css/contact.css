@@ -1,0 +1,40 @@
+#contact
+{
+width:700px;
+height:-0px;
+position:absolute;
+top:500px;
+left:200px;
+font-family:body_font;
+}
+#top
+{
+width:700px;
+height:-0px;
+position:absolute;
+top:370px;
+left:350px;
+font-family:footer_bar;
+font-size:15pt;
+}
+#img1
+{
+position:absolute;
+top:750px;
+left:800px;
+}
+#img2
+{
+position:absolute;
+top:750px;
+left:850px;
+}
+
+#footer
+{
+	margin-top: 45%;
+}
+
+#link {
+	text-decoration: none;
+	}
